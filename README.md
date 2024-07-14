@@ -20,7 +20,7 @@ Bu Chrome eklentisi, Trendyol üzerindeki ürünlerin istatistiklerini gösterme
 
 Eklentinin geliştirilmesi ve katkıda bulunulması için aşağıdaki adımları izleyin:
 
-1. **Depoyu Klonlayın:** `git clone https://github.com/kullanici/eklenti-projesi.git`
+1. **Depoyu Klonlayın:** `git clone https://github.com/mebularts/trendyol-stats.git`
 2. **Gerekli Bağımlılıkları Yükleyin:** `npm install`
 3. **Geliştirme Modunda Çalıştırın:** `npm run dev`
 4. **Eklentiyi Yükleyin:** Chrome tarayıcınızda `chrome://extensions/` sayfasını açın, "Geliştirici Modu"nu aktif edin ve "Paket dışı uzantıyı yükle" seçeneğiyle projenizin kök dizinini seçin.
