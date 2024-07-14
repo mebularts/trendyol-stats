@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>Trendyol Ürün İstatistikleri</title>
+  <link rel="stylesheet" href="popup.css">
+  <script src="js/chart.min.js"></script>
+  <script src="js/jspdf.umd.min.js"></script>
+</head>
+<body>
+  <div id="content">
+    <h1>Ürün İstatistikleri</h1>
+    <button id="fetchStats">İstatistikleri Getir</button>
+    <div id="productStats"></div>
+    <button id="downloadPdf">PDF İndir</button>
+  </div>
+  
+  <div id="productList"></div>
+  <div id="chartContainer">
+    <canvas id="chart"></canvas>
+  </div>
+  <button id="showMore">Daha Fazla Göster</button>
+  <div class="footer">
+    <a href="https://t.me/mebularts" target="_blank">mebularts</a> tarafından ♥ ile kodlanmıştır.
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

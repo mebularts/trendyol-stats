@@ -1,0 +1,47 @@
+{
+  "manifest_version": 3,
+  "name": "Trendyol Ürün İstatistikleri",
+  "description": "Trendyol'daki ürünlerin satış, görüntüleme ve favorileme bilgilerini analiz eder. mebularts tarafından kodlanarak ücretsiz dağıtılmıştır açık kaynak olduğu için geliştirmeye açıktır.",
+  "version": "1.0",
+  "permissions": [
+    "activeTab",
+    "storage",
+    "scripting"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/icon16.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  },
+  "author": "mebularts",
+  "homepage_url": "https://t.me/mebularts",
+  "icons": {
+    "16": "images/icon16.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": ["https://*.trendyol.com/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "host_permissions": [
+    "https://*.trendyol.com/*"
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "js/chart.min.js",
+        "js/jspdf.umd.min.js"
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ]
+}
