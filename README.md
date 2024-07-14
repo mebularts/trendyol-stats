@@ -16,6 +16,11 @@ Bu Chrome eklentisi, Trendyol üzerindeki ürünlerin istatistiklerini gösterme
 3. **İstatistikleri Getir:** Eklenti panelindeki "İstatistikleri Getir" butonuna tıklayarak ürün istatistiklerini görüntüleyin.
 4. **PDF İndir:** "PDF İndir" butonuna tıklayarak görüntülenen istatistikleri PDF formatında indirin.
 
+## Ekran Görüntüleri
+
+![image](https://github.com/user-attachments/assets/c39f4c02-71c3-4563-8882-16d00a3df9ba)
+![image](https://github.com/user-attachments/assets/9ddeac89-4e41-46c0-941a-813a21942ffc)
+
 ## Geliştirme
 
 Eklentinin geliştirilmesi ve katkıda bulunulması için aşağıdaki adımları izleyin:
